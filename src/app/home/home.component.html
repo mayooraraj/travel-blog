@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home">
+        <div class="left">
+            <img src="assets/images/logo.jpg" class="logo">
+        </div>
+        <div class="right">
+            <img src="assets/images/around.png" class="img1" appImagesize>
+            <p appTextstyle>Hi, we’re Mayoora & Dharshan from Let's Travel Together.
+                We create inspiring travel blogs about the world’s most beautiful places to make planning your holiday a piece of cake!</p>
+            <p appTextstyle>Choose a destination here to start your journey.</p>
+        </div>
+    </div>
+    <app-card></app-card>
+
+    <div class="next-destination">
+        <h1 class="text">Where to next ?</h1>
+    </div>
+
+    <app-next-destination></app-next-destination>
+
+    <div class="section3">
+    <div class="section3__text">
+        <h3>It's easy to do better</h3>
+        <h1>Sustainable Travel</h1>
+        <p>Sustainable travel means traveling slow, with different transport, packing eco-friendly, stay  <br>local and much more!</p>
+        <button (click)="viewAuthorDetails()">View Author Details</button>
+    </div>
+    </div>
+
+    <div class="footer">
+        <input type="text" placeholder="Your Email Address">
+        <button class="btn">Subscribe</button>
+    </div>
+   
+        
+    
+   
+</body>
+</html>
+

@@ -1,0 +1,18 @@
+.icon1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.next-destination{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-radius: 100px;
+
+    .place{
+        text-align: center;
+        h3{
+            font-size: 20px;
+        }
+    }
+}

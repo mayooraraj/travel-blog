@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cards d-flex" >
+    <div class="card"  *ngFor="let i of places">
+        <img src="assets/images/around.png" appImagesize class="icon" >
+        <h4>{{i.name}}</h4>
+        <h1>{{i.description}}</h1>
+        <img src="{{i.img}}" class="image">
+        <button type="submit">Visit {{i.name}}Blog</button>
+    </div>
+</div>
+</body>
+</html>

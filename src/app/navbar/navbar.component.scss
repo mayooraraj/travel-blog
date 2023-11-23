@@ -1,0 +1,28 @@
+.navbar{
+    .logo{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    ul{
+        display: flex;
+        gap:40px;
+
+        li{
+            list-style-type: none;
+          
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+        li.active a{
+            color: green;
+        }
+    }
+   
+}
